@@ -18,7 +18,7 @@ const Logo = (props) => {
             width: auto;
             height: auto;
             display: flex;
-            padding: var(--dl-space-space-unit);
+            padding: var(--dl-space-space-oneandhalfunits);
             position: relative;
             align-items: flex-start;
             flex-direction: column;

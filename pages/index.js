@@ -60,7 +60,7 @@ const Home = (props) => {
             width: 100%;
             height: 100%;
             display: flex;
-            padding: var(--dl-space-space-sixunits);
+            padding: var(--dl-space-space-oneandhalfunits);
             align-items: flex-start;
             flex-direction: column;
           }
@@ -96,7 +96,7 @@ const Home = (props) => {
           }
           @media (max-width: 479px) {
             .home-container1 {
-              padding: 48px;
+              padding: var(--dl-space-space-oneandhalfunits);
             }
             .home-text {
               font-size: 24px;
