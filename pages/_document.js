@@ -21,7 +21,7 @@ class CustomDocument extends Document {
           <style
             dangerouslySetInnerHTML={{
               __html:
-                '\n  html {\n    font-family: Outfit;\n    font-size: 24px;\n  }\n\n  body {\n    font-weight: 700;\n    font-style:normal;\n    text-decoration: none;\n    text-transform: none;\n    letter-spacing: 1px;\n    line-height: 1.6;\n    color: var(--dl-color-colors-black);\n    background-color: var(--dl-color-colors-white);\n    \n  }\n\n  \n\n  ',
+                '\n  html {\n    font-family: Outfit;\n    font-size: 32px;\n  }\n\n  body {\n    font-weight: 400;\n    font-style:normal;\n    text-decoration: none;\n    text-transform: none;\n    letter-spacing: 0px;\n    line-height: 1.6;\n    color: var(--dl-color-primary-black);\n    background-color: var(--dl-color-primary-white);\n    \n  }\n\n  \n\n  ',
             }}
             data-tag="default-style-sheet"
           ></style>

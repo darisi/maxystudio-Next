@@ -6,9 +6,9 @@
   --dl-size-size-xsmall: 16px;
   --dl-space-space-unit: 16px;
   --dl-size-size-xxlarge: 288px;
-  --dl-color-colors-black: #0a0a0aff;
-  --dl-color-colors-white: #ecebe4ff;
   --dl-size-size-maxwidth: 1400px;
+  --dl-color-primary-black: #0a0a0aff;
+  --dl-color-primary-white: #ecebe4ff;
   --dl-radius-radius-round: 50%;
   --dl-space-space-halfunit: 8px;
   --dl-space-space-sixunits: 96px;
@@ -22,31 +22,31 @@
   --dl-space-space-oneandhalfunits: 24px;
 }
 .button {
-  color: var(--dl-color-colors-black);
-  display: inline-block;
-  padding: 0.5rem 1rem;
-  border-color: var(--dl-color-colors-black);
-  border-width: 1px;
-  border-radius: 4px;
-  background-color: var(--dl-color-colors-white);
+  font-size: 24px;
+  font-family: Outfit;
+  font-weight: 700;
+  line-height: 1;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 .input {
-  color: var(--dl-color-colors-black);
+  color: var(--dl-color-primary-black);
   cursor: auto;
   padding: 0.5rem 1rem;
-  border-color: var(--dl-color-colors-black);
+  border-color: var(--dl-color-primary-black);
   border-width: 1px;
   border-radius: 4px;
-  background-color: var(--dl-color-colors-white);
+  background-color: var(--dl-color-primary-white);
 }
 .textarea {
-  color: var(--dl-color-colors-black);
+  color: var(--dl-color-primary-black);
   cursor: auto;
   padding: 0.5rem;
-  border-color: var(--dl-color-colors-black);
+  border-color: var(--dl-color-primary-black);
   border-width: 1px;
   border-radius: 4px;
-  background-color: var(--dl-color-colors-white);
+  background-color: var(--dl-color-primary-white);
 }
 .list {
   width: 100%;
@@ -63,11 +63,11 @@
   display: flex !important;
 }
 .content {
-  font-size: 24px;
+  font-size: 32px;
   font-family: Outfit;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 1.6;
-  letter-spacing: 1px;
+  letter-spacing: 0px;
   text-transform: none;
   text-decoration: none;
 }

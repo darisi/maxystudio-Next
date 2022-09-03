@@ -15,7 +15,7 @@ const Logo = (props) => {
       <style jsx>
         {`
           .logo-container {
-            width: auto;
+            width: 100%;
             height: auto;
             display: flex;
             padding: var(--dl-space-space-oneandhalfunits);
@@ -34,6 +34,12 @@ const Logo = (props) => {
             width: 100%;
             height: auto;
             position: static;
+          }
+          @media (max-width: 375px) {
+            .logo-root-class-name {
+              flex: 0 0 auto;
+              height: auto;
+            }
           }
         `}
       </style>
