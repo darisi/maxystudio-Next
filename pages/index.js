@@ -271,12 +271,12 @@ const Home = (props) => {
   border-color: var(--dl-color-primary-white);
   border-width: 4px;
 }
-@media(max-width: 767px) {
+@media(max-width: 991px) {
   .home-container1 {
-    width: 75%;
+    width: 100%;
   }
 }
-@media(max-width: 375px) {
+@media(max-width: 479px) {
   .home-container {
     flex-wrap: wrap;
   }

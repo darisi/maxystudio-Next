@@ -35,7 +35,7 @@ const Logo = (props) => {
             height: auto;
             position: static;
           }
-          @media (max-width: 375px) {
+          @media (max-width: 479px) {
             .logo-root-class-name {
               flex: 0 0 auto;
               height: auto;
