@@ -266,6 +266,7 @@ const Home = (props) => {
   padding-right: 2rem;
   padding-bottom: 0.5rem;
   text-decoration: none;
+  background-color: var(--dl-color-primary-white);
 }
 .home-link1:hover {
   border-color: var(--dl-color-primary-white);
