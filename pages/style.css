@@ -51,12 +51,15 @@
 .list {
   width: 100%;
   margin: 1em 0px 1em 0px;
-  display: block;
+  display: flex;
   padding: 0px 0px 0px 1.5rem;
+  flex-wrap: wrap;
   list-style-type: none;
   list-style-position: outside;
 }
 .list-item {
+  flex: auto;
+  width: 50%;
   display: list-item;
 }
 .teleport-show {
